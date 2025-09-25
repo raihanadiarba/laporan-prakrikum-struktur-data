@@ -29,6 +29,8 @@ int main()
     return 0;
 }
 ```
+> Output
+> ![Screenshot bagian x](output/aritmatika.png)
 
 Program ini bertujuan untuk melakukan perhitungan matematika sederhana. Terdapat tiga variabel bertipe int (W, X, Y) dan satu variabel bertipe float (Z). Nilai X, Y, dan W ditetapkan secara langsung: X = 7, Y = 3, dan W = 1. Program kemudian menghitung nilai Z menggunakan rumus ((X + Y) / (Y + W)), yaitu ((7 + 3) / (3 + 1) = 10 / 4 = 2.5). Karena Z bertipe float, hasil pembagian disimpan sebagai bilangan desimal. Terakhir, hasil perhitungan ditampilkan ke layar menggunakan cout.
 
@@ -84,6 +86,9 @@ int main()
 }
 
 ```
+
+> Output
+> ![Screenshot bagian x](output/fungsi.png)
 
 Program ini menunjukkan salah satu cara penggunaan fungsi dan prosedur dalam C++ untuk menghitung luas dan keliling persegi panjang. Program dimulai dengan meminta input dari pengguna berupa nilai panjang dan lebar. Nilai tersebut kemudian diproses menggunakan dua fungsi: hitungLuas() untuk menghitung luas dengan rumus p × l, dan hitungKeliling() untuk menghitung keliling dengan rumus 2 × (p + l). Kedua fungsi ini mengembalikan nilai hasil perhitungan yang kemudian ditampilkan ke layar.
 Selain fungsi, program juga menggunakan sebuah prosedur bernama tampilkanHasil(). Berbeda dengan fungsi, prosedur ini tidak mengembalikan nilai, tetapi langsung mencetak semua hasil perhitungan ke layar, termasuk nilai panjang, lebar, luas, dan keliling. 
@@ -154,6 +159,8 @@ int main()
 }
 
 ```
+> Output
+> ![Screenshot bagian x](output/kondisi.png)
 
 Kode ini menampilkan implementasi struktur kontrol percabangan. Dua blok kode pertama (yang dikomentari) menunjukkan cara memberikan diskon 5% menggunakan percabangan if dan if-else. Jika total pembelian pengguna bernilai Rp100.000 atau lebih, maka diskon dihitung sebagai 5% dari total pembelian. Jika tidak memenuhi syarat, diskon bernilai nol.
 Blok kode yang aktif menggunakan struktur switch-case untuk menentukan apakah suatu hari termasuk hari kerja atau hari libur berdasarkan kode angka 1–7 yang dimasukkan oleh pengguna. Kode 1 sampai 5 (Senin–Jumat) dianggap hari kerja, sedangkan kode 6 dan 7 (Sabtu dan Minggu) dianggap hari libur. Jika pengguna memasukkan angka di luar 1–7, program akan menampilkan pesan kesalahan “Kode masukan salah!!!”.
@@ -189,6 +196,9 @@ int main()
     return 0;
 }
 ```
+
+> Output
+> ![Screenshot bagian x](output/perulangan.png)
 
 Program ini menunjukkan dua contoh implementasi perulangan. Bagian pertama (yang dikomentari) menggunakan perulangan for untuk mencetak teks “saya sahroni” berulang kali sesuai jumlah yang dimasukkan pengguna. Perulangan dimulai dari nilai awal 0 dan akan terus berjalan hingga mencapai jumlah yang ditentukan.
 Bagian kedua (yang aktif) menggunakan perulangan do-while. Program meminta input jumlah perulangan, lalu mencetak teks “bahlil ke-” diikuti dengan nomor urut yang dimulai dari 2. Proses ini berlangsung selama kondisi i < jum terpenuhi. Struktur do-while memastikan perintah di dalam blok perulangan dijalankan minimal satu kali sebelum pengecekan kondisi dilakukan.
@@ -228,6 +238,8 @@ int main() {
 }
 
 ```
+> Output
+> ![Screenshot bagian x](output/struct.png)
 
 Program ini mengilustrasikan penggunaan struct untuk mengelompokkan data yang saling terkait. Dalam contoh ini, didefinisikan sebuah struct bernama Mahasiswa yang memiliki tiga anggota data, yaitu nama (string), nim (string), dan ipk (float). Struct ini memungkinkan pengelompokan informasi mahasiswa secara rapi tanpa harus membuat variabel terpisah untuk setiap atribut.
 Di dalam fungsi main, dibuat satu variabel bertipe Mahasiswa bernama mhs1. Program kemudian meminta pengguna untuk mengisi nama menggunakan getline agar dapat membaca input berupa satu baris teks, serta mengisi NIM dan IPK menggunakan cin. Setelah seluruh data dimasukkan, program menampilkan kembali informasi mahasiswa tersebut secara terstruktur, dengan menuliskan nama, NIM, dan IPK yang telah diinput.
@@ -248,6 +260,8 @@ int main()
 }
 
 ```
+> Output
+> ![Screenshot bagian x](output/TEST.png)
 
 Program ini berfungsi untuk membaca satu karakter input dari pengguna dan menampilkannya kembali ke layar. Variabel ch bertipe string digunakan untuk menyimpan karakter yang dimasukkan. Alih-alih menggunakan cin, program memanfaatkan fungsi getchar() yang secara khusus digunakan untuk mengambil satu karakter pertama dari input pengguna, termasuk spasi atau karakter khusus. Nilai karakter yang dibaca kemudian disimpan ke dalam variabel ch dan ditampilkan kembali melalui cout.
 
