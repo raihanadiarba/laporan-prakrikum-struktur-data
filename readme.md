@@ -2,7 +2,6 @@
   <h1>🎓 Struktur Data</h1>
   
   ![Telkom University](https://img.shields.io/badge/Telkom-University-red)
-  ![Course](https://img.shields.io/badge/Course-STRUKTUR-DATA-blue)
   ![Class](https://img.shields.io/badge/Class-IF--12--07-green)
 </div>
 
