@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>🎓 Algorithm and Programming 2</h1>
-  <p><i>Repository for Academic Excellence</i></p>
+  <h1>🎓 Struktur Data</h1>
   
   ![Telkom University](https://img.shields.io/badge/Telkom-University-red)
   ![Course](https://img.shields.io/badge/Course-ALPRO2-blue)
